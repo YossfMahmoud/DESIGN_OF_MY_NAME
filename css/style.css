@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing:  border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(75, 73, 73);
+    font-family: 'Playfair Display SC', sans-serif;
+}
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container ul{
+    list-style: none;
+}
+
+.container ul li h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    letter-spacing: -5px;
+    position: relative;
+    left: -15px;
+    color: rgb(32, 158, 146);
+    transition: 0.7s ;  
+}
+.container ul li h1:hover{
+    color: rgb(183, 58, 207);
+}
+.container ul li h1::first-letter{
+    color: rgb(22, 123, 224);
+}
+
+.container ul li h3{
+    color: rgb(216, 195, 195);
+    letter-spacing: 38px;
+}
+
+.container ul li h2{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgb(228, 224, 224);
+}
+.container ul li h2 span.chgc{
+    color: rgb(153, 45, 153);
+}
+
+.container ul li h2 span{
+    color: rgb(160, 199, 109);
+}
